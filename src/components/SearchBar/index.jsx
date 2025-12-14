@@ -18,7 +18,7 @@ export default function SearchBar() {
     }
 
     return (
-        <div >
+        <div className={`${styles.container} flex`}>
             <input 
                 type='text'
                 className={`${styles.input}`}
@@ -26,7 +26,7 @@ export default function SearchBar() {
                 value={searchValue}
                 onChange={handleInput}
             />
-            <button onClick={handleSearch}>点我触发搜索</button>
+            <button onClick={handleSearch} className={`${styles.button}`}>搜索</button>
         </div>
     )
 }

@@ -9,6 +9,7 @@
 .h-full { height: 100%; }
 /* 间距类（基于变量） */
 .mt-sm { margin-top: var(--spacing-sm); }
+.mt-md { margin-top: var(--spacing-md); }
 .mb-md { margin-bottom: var(--spacing-md); }
 .p-md { padding: var(--spacing-md); }
 /* 文本类 */
@@ -18,6 +19,7 @@
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.container-border { border: 1px solid var(--color-border); border-radius: var(--radius-md); }
 
 /* 2. 通用标签样式 */
 h1, h2, h3, h4, h5, h6 {

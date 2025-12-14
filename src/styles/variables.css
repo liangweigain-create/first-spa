@@ -1,9 +1,9 @@
 :root {
     /* 1. 颜色系统（按功能分，而非按值分） */
     /* 主色：品牌核心色 */
-    --color-primary: #43418f;
-    --color-primary-light: #5552a8;
-    --color-primary-dark: #333170;
+    --color-primary: #2e98be;
+    --color-primary-light: #78d4ff;
+    --color-primary-dark: #0013e2;
     /* 辅助色：警告/成功/错误 */
     --color-success: #52c41a;
     --color-warning: #faad14;

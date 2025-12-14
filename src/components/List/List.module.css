@@ -1,0 +1,5 @@
+.listContainer {
+    width: 800px;
+    min-height: 80vh;
+    overflow: auto;
+}
