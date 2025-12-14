@@ -1,13 +1,11 @@
 // src/router/index.js
 import { createBrowserRouter } from 'react-router-dom';
 
-// 先导入“占位组件”（后续替换为真实页面）
 import Layout from '../components/Layout'; // 布局组件（固定导航/Outlet）
 import Home from '../pages/Home'; // 首页
 import About from '../pages/About'; // 关于页
 import NotFound from '../pages/NotFound'; // 404页
 
-// 定义路由规则（先写结构，组件内容后续补）
 const router = createBrowserRouter([
   {
     path: '/', // 根路径

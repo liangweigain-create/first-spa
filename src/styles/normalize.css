@@ -1,0 +1,26 @@
+@import 'normalize.css';
+
+/* 项目专属重置 */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: var(--color-text-primary); /* 引用variables的变量（后续会先导入variables） */
+  background-color: var(--color-bg-primary);
+}
+
+ul, ol { list-style: none; }
+
+a { text-decoration: none; color: inherit; }
+
+button, input { font-family: inherit; font-size: inherit; outline: none; }
+
+button { background: none; border: none; cursor: pointer; }
+
+img { max-width: 100%; display: block; }

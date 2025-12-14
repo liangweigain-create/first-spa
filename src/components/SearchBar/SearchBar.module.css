@@ -1,0 +1,7 @@
+.input {
+    font-size: calc(var(--font-size-xl));
+    padding: var(--spacing-sm);
+    border-radius: var(--radius-md);
+    box-shadow: var(--shadow-lg);
+}
+

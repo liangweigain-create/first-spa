@@ -1,4 +1,4 @@
-import './index.css'
+import styles from './SearchBar.module.css'
 import { useState } from 'react'
 
 export default function SearchBar() {
@@ -18,10 +18,10 @@ export default function SearchBar() {
     }
 
     return (
-        <div className='search-container'>
+        <div >
             <input 
                 type='text'
-                className='search-bar'
+                className={`${styles.input}`}
                 name='search'
                 value={searchValue}
                 onChange={handleInput}

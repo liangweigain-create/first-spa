@@ -1,0 +1,40 @@
+/* 1. 通用工具类（高频使用） */
+/* 布局类 */
+.flex { display: flex; }
+.flex-col { flex-direction: column; }
+.justify-center { justify-content: center; }
+.items-center { align-items: center; }
+.justify-between { justify-content: space-between; }
+.w-full { width: 100%; }
+.h-full { height: 100%; }
+/* 间距类（基于变量） */
+.mt-sm { margin-top: var(--spacing-sm); }
+.mb-md { margin-bottom: var(--spacing-md); }
+.p-md { padding: var(--spacing-md); }
+/* 文本类 */
+.text-center { text-align: center; }
+.text-ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 2. 通用标签样式 */
+h1, h2, h3, h4, h5, h6 {
+  font-weight: var(--font-weight-bold);
+  line-height: 1.2; /* 标题行高更小，更醒目 */
+  margin-bottom: var(--spacing-sm);
+}
+h1 { font-size: var(--font-size-xl); }
+h2 { font-size: var(--font-size-lg); }
+h3 { font-size: var(--font-size-md); }
+
+/* 3. 通用交互样式 */
+/* 聚焦样式：提升可访问性 */
+
+/* 禁用样式 */
+.disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+  pointer-events: none;
+}
